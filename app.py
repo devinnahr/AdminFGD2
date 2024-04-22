@@ -4,7 +4,7 @@ from bson import ObjectId
 import os
 import datetime
 
-client = MongoClient('mongodb+srv://test:sparta@cluster0.j8jl3wt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('mongodb+srv://test:sparta@cluster0.2m7qwhx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 db = client.fg2
 
 app = Flask(__name__)
